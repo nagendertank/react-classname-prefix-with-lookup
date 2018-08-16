@@ -44,7 +44,7 @@ module: {
               loader: 'babel-loader'
            },
            {
-              loader: path.resolve('react-classnames-prefix.js'),
+              loader: 'react-classname-prefix-loader-with-lookup',
               options:{
                 prefix:'prefix-',
                 fileName: ['./src/main.css','./src/style.css']
