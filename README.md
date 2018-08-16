@@ -1,4 +1,4 @@
-# react-classname-prefix-with-lookup
+# react-classname-prefix-loader-with-lookup
 A Webpack loader that prefixes classes with custom prefix in React components. You can use lookup css files and if class presents then only it will update with prefix.
 
 MyComponent.js
@@ -29,7 +29,7 @@ Also works with [classnames](https://github.com/JedWatson/classnames) module!
 
 ## Installation
 ```
-$ npm install react-classname-prefix-with-lookup --save-dev 
+$ npm install react-classname-prefix-loader-with-lookup --save-dev 
 ```
 
 ## Usage
